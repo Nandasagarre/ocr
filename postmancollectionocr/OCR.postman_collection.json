@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "2d12c236-8b82-43d2-bc3d-b59cb93bafd4",
+		"name": "OCR",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18458545"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/imagetojson_bounding_boxes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/Raghu/Desktop/ins.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/imagetojson_bounding_boxes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"imagetojson_bounding_boxes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
